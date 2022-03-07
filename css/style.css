@@ -30,7 +30,7 @@ html {
     } 
 }
 .fixedicon {
-	position: fixed;
+	position: sticky;
 	width: 120px;
 	height: 35px;
 	background-color: maroon;
