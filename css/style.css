@@ -30,7 +30,7 @@ html {
     } 
 }
 .fixedicon {
-	position: sticky;
+	position: fixed;
 	width: 120px;
 	height: 35px;
 	background-color: maroon;
@@ -202,6 +202,11 @@ nav .nav-link.active {
 @media (max-width: 991px) {
   .column-margin {
     margin: 10px 0;
+  }
+}
+@media (max-width: 360px) {
+  .fixedicon {
+    position: fixed;
   }
 }
 
